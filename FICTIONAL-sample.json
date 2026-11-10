@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "accounts": [
+    {
+      "id": "fictional-checking",
+      "name": "FICTIONAL Checking",
+      "kind": "checking",
+      "balanceCents": 420000,
+      "asOf": "2026-11-01"
+    },
+    {
+      "id": "fictional-credit",
+      "name": "FICTIONAL Credit Card",
+      "kind": "credit",
+      "balanceCents": 80000,
+      "asOf": "2026-11-01"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "fictional-001",
+      "accountId": "fictional-checking",
+      "date": "2026-11-01",
+      "merchant": "FICTIONAL Employer",
+      "category": "Salary",
+      "type": "income",
+      "amountCents": 250000
+    },
+    {
+      "id": "fictional-002",
+      "accountId": "fictional-checking",
+      "date": "2026-11-02",
+      "merchant": "FICTIONAL Grocery",
+      "category": "Groceries",
+      "type": "expense",
+      "amountCents": 6200
+    },
+    {
+      "id": "fictional-003",
+      "accountId": "fictional-checking",
+      "date": "2026-11-03",
+      "merchant": "FICTIONAL Transfer",
+      "category": "Transfer",
+      "type": "transfer",
+      "amountCents": 5000
+    }
+  ],
+  "netWorthHistory": [
+    {
+      "date": "2026-10-01",
+      "amountCents": 310000
+    },
+    {
+      "date": "2026-11-01",
+      "amountCents": 340000
+    }
+  ]
+}
